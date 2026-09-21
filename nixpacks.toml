@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["nodejs_20", "python3", "gcc", "gnumake", "ffmpeg", "yt-dlp"]
-
-[phases.install]
-cmds = ["npm install --omit=dev"]
-
-[start]
-cmd = "node index.js"
